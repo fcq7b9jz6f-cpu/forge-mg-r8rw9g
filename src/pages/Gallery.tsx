@@ -39,6 +39,7 @@ const Gallery = () => {
       description: 'أثناء استقبالها من الجمهور',
       year: '1970',
       location: 'مسرح البالون، القاهرة'
+山路
     },
     {
       src: 'https://images.pexels.com/photos/29344613/pexels-photo-29344613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
@@ -120,7 +121,7 @@ const Gallery = () => {
                 </div>
                 
                 <div className="p-4">
-                  <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-2">
+                  <div className="flex items-center space-x-4 text-sm text-muted-foreground">
                     <div className="flex items-center">
                       <Calendar className="h-4 w-4 ml-1" />
                       <span>{image.year}</span>
